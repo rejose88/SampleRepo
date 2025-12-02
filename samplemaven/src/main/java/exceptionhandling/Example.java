@@ -9,17 +9,17 @@ public class Example {
 		{
 			int c=a/b;
 		}
-		finally
+		/*finally
 		{
 			System.out.println("Mandatory code");
-		}
-		/*catch(ArithmeticException e)
+		}*/
+		catch(ArithmeticException e)
 		{
 			b=2;
 			int d=a/b;
 			System.out.println(d);
 			System.out.println(e);
-		} */
+		} 
 		
 		
 
