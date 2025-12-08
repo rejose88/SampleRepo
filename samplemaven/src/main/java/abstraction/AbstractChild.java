@@ -3,11 +3,14 @@ package abstraction;
 public class AbstractChild extends AbstractParent{
 	
 	public static void main(String[] args) {
+		
 		AbstractChild obj=new AbstractChild();
 		obj.display();
 		obj.print();
+		obj.abstractParentMethod();	
+	
 	}
-
+	
 	@Override
 	public void print() {
 		
